@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+ display: inline;
+}
+.titolo{
+    display: inline-block;
+}
+
+main {
+    background-color:brown
+}
+
+.bottom {
+    background-color: blue;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+.paragrafo::before {
+    content: "\25BC";
+    font-size: 10px;
+}
+
+.paragrafo {
+    font-size: 20px;
+}
+
+.do::before {
+ content: "\2713";
+}
+
+.not::before {
+    content: "\0078";
+    font-size: 15px;
+}
